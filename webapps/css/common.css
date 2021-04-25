@@ -1,6 +1,8 @@
-body {font-family: "Times New Roman", Georgia, Serif;
+#body {
+    font-family: "Times New Roman", Georgia, Serif;
     background-color:lightskyblue;
     }
+
     h1, h2, h3 {
       font-family: "Playfair Display";
       letter-spacing: 5px;

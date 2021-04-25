@@ -1,0 +1,35 @@
+#section {
+    background-color: white;
+    border: 10px;
+    border-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex 콘텐츠 위치 조정*/
+    justify-content: left;
+}
+
+.box3{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box4{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#profileImg{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border: 7px solid gray;
+    /* float 이미지와 텍스트 위치 조정*/
+    float: left;
+    margin-right: 10px;
+}
+
+.contents2{
+    float: right;
+    width: 100%; 
+}
