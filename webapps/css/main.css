@@ -1,0 +1,60 @@
+#section > .box0 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%
+}
+
+#map {
+    display: block;
+    width: 95%;
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+
+.Map{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.box0{
+    float: inline-end;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+
+.box1 {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+.box2 {
+    width: 70px;
+    border: 5px solid skyblue;
+    background-color: skyblue;
+    padding: 3px;
+    margin: 2px; 
+    text-align: center;
+    height: 40px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#section > .box0 > .box2 {
+    float: inline-start;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: hidden;
+}

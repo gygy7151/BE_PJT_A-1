@@ -13,17 +13,40 @@
               font-family: "Playfair Display";
               letter-spacing: 5px;
             }
+            .header {
+                background-color: white;
+                text-align:center;
+                padding: 20px;
+                letter-spacing: 1px;
+                margin: 2px;
+                /* 화면사이징에 따른 박스크기조정 */
+                margin-bottom: 10px;
+                display: flex;
+                flex-wrap: nowrap;
+                /* flex 콘텐츠 위치 조정*/
+                justify-content: flex-end;
+            }
+
+            #section {
+                background-color: white;
+                border: 10px;
+                border-color: white;
+            }
+
+            #footer {
+                background-color: white;
+                margin-top: 20px;
+            }
             </style>
     </head>
-    <body>
-        <header class="header" style="letter-spacing: 4px;">            <ul>
-                <li><a href="main.html"></a>홈</li>
-                <li><a href="sub1.html"></a>자기소개</li>
-                <li><a href="sub2.html"></a>내사진</li>
-                <li><a href="sub3.html"></a>몇시에요</li>
-            </ul>
+    <body id="body">
+        <header class="header">
+            <a id="list" href="main.html">홈</a>
+            <a id="list" href="sub1.html">자기소개</a>
+            <a id="list" href="sub2.html">내사진</a>
+            <a id="list" href="../webapps/WEB-INF/src/sub3.java">몇시에요</a>
         </header>
-        <div class="section">
+        <div id="section">
             <section><ul>
                 <li class="box3">
                     <div class="profileImg"><image src="../webapps/images/awhitemoon.jpeg"></image></div>
@@ -40,6 +63,6 @@
                 </li>
             </ul></section>
         </div>
-        <footer class="footer"> bluevulpe@gmail.com<br>https://github.com/gygy7151</footer>
+        <footer id="footer"> bluevulpe@gmail.com<br>https://github.com/gygy7151</footer>
     </body>
 </html>
