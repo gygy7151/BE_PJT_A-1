@@ -1,0 +1,10 @@
+#box4 {
+    /*상자와 글이 간격을 띄워줌*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
