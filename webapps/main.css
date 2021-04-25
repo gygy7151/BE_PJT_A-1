@@ -1,0 +1,134 @@
+
+@media screen and (max-width: 600px) {
+    #section {
+        width: 100%;
+    } 
+}
+
+#body {
+    background-color: aquamarine;
+
+}
+
+#body:not(#body) .header {
+    background-color: whitesmoke;
+}
+
+.h1, .h2, .h3 {
+      font-family: "Playfair Display";
+      letter-spacing: 5px;
+}
+
+/* Style the header menu links */
+.header > #list > a {
+    float: right;
+    display: block;
+    color:aquamarine;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+/* #list a:hover {
+    background-color: blue;
+    color: darkgray;
+} */
+
+#body {
+    background-color: aquamarine;
+}
+.header {
+    background-color: white;
+    text-align:center;
+    padding: 20px;
+    letter-spacing: 1px;
+    margin: 2px;
+    /* 화면사이징에 따른 박스크기조정 */
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex 콘텐츠 위치 조정*/
+    justify-content: flex-end;
+}
+
+#section {
+    background-color: white;
+    border: 10px;
+    border-color: white;
+}
+
+#footer {
+    background-color: white;
+    margin-top: 20px;
+}
+
+#section > .box0 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%
+}
+
+#map {
+    display: block;
+    width: 95%;
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+
+.Map{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.box0{
+    float: inline-end;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+
+.box1 {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+#list{
+    width: 100px;
+    border: 5px solid skyblue;
+    background-color: skyblue;
+    padding: 3px;
+    margin: 2px; 
+    padding-right: 5px;
+}
+
+.box2 {
+    width: 70px;
+    border: 5px solid skyblue;
+    background-color: skyblue;
+    padding: 3px;
+    margin: 2px; 
+    text-align: center;
+    height: 40px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#section > .box0 > .box2 {
+    float: inline-start;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: hidden;
+}
