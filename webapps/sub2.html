@@ -4,32 +4,42 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>MyProfile</title>
+        <link rel="stylesheet" src="../webapps/css/main.css">
+        <style>
+            body {font-family: "Times New Roman", Georgia, Serif;
+            background-color:lightskyblue;
+            }
+            h1, h2, h3 {
+              font-family: "Playfair Display";
+              letter-spacing: 5px;
+            }
+            </style>
     </head>
     <body>
-        <header>
-            <ul>
+        <header class="header" style="letter-spacing: 4px;">            <ul>
                 <li><a href="main.html"></a>홈</li>
                 <li><a href="sub1.html"></a>자기소개</li>
                 <li><a href="sub2.html"></a>내사진</li>
                 <li><a href="sub3.html"></a>몇시에요</li>
             </ul>
         </header>
-        <section><ul>
-            <li>
-                <div><image src="../image/awhitemoon.jpeg"></image></div>
-                퇴근길에 하늘에 보이는 달 찍은 'a white moon over the sky blue music paper오선지 위에 달'이라는 작품입니다.<br>
-                전깃줄이 마치 오선지 같아보여서 호흡을 멈추고 담은 순간입니다.
-            </li>
-            <li>
-                <div><image src="../image/pavedheart.JPG"></image></div>
-                빨간 자동차는 사람의 '심장'을 연상 시켰습니다. 빨간심장은 '마음'을 의미하고,<br>
-                바닥에 비포장도로가 문득 사람의 '마음'도 포장이 될 수 없을까라는 생각이 스쳤습니다.<br>
-                위 작품의 제목이 그래서 "마음도 포장이 되나요? What if paved heart?"입니다.
-            </li>
-        </ul></section>
-        <section><ul>
-
-        </ul></section>
-        <footer> bluevulpe@gmail.com<br>https://github.com/gygy7151</footer>
+        <div class="section">
+            <section><ul>
+                <li class="box1">
+                    <div class="profileImg"><image src="../webapps/images/awhitemoon.jpeg"></image></div>
+                    <p class="contents2">퇴근길에 하늘에 보이는 달 찍은 'a white moon over the sky blue music paper오선지 위에 달'이라는 작품입니다.<br>
+                    전깃줄이 마치 오선지 같아보여서 호흡을 멈추고 담은 순간입니다.</p>
+                </li>
+                <li class="box1">
+                    <div class="profileImg"><image src="../webapps/images/pavedheart.JPG"></image></div>
+                    <p class="contents2">
+                        빨간 자동차는 사람의 '심장'을 연상 시켰습니다. 빨간심장은 '마음'을 의미하고,<br>
+                        바닥에 비포장도로가 문득 사람의 '마음'도 포장이 될 수 없을까라는 생각이 스쳤습니다.<br>
+                        위 작품의 제목이 그래서 "마음도 포장이 되나요? What if paved heart?"입니다.
+                    </p>
+                </li>
+            </ul></section>
+        </div>
+        <footer class="footer"> bluevulpe@gmail.com<br>https://github.com/gygy7151</footer>
     </body>
 </html>

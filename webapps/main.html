@@ -4,32 +4,46 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>MainHomepage</title>
+        <link rel="stylesheet" src="../webapps/css/main.css">
+        <style>
+            body {font-family: "Times New Roman", Georgia, Serif;
+            background-color:lightskyblue;
+            }
+            h1, h2, h3 {
+              font-family: "Playfair Display";
+              letter-spacing: 5px;
+            }
+            </style>
     </head>
     <body>
-        <header>
-            <ul>
-                <li><a href="main.html"></a>홈</li>
-                <li><a href="sub1.html"></a>자기소개</li>
-                <li><a href="sub2.html"></a>내사진</li>
-                <li><a href="../webapps/WEB-INF/src/sub3.java"></a>몇시에요</li>
-            </ul>
-        </header>
-        <section>
-            <h2>안녕하세요 개발자 bluevulpe입니다.</h2>
-            <p>현재 비전공자 주니어 개발자로 근무한지 만 11개월차이며<br>
-                제가 하는일에 어떤 가치를 부여하는게 의미가 있을지 고민하는 사람입니다.<br>
-                현재 서비스 기획 및 클라우드 콘텐츠 제작, 프론트개발자로 일하고 있습니다.<br>
-                선한에너지로 세상에 선한 영향력을 주는 사람 협업하기 좋은 개발자가 되고자 힘쓰고 있습니다.<br>
-                사진과 영상찍기 및 서핑을 취미로 합니다. 최근엔 개인 브이로그 유튜브 채널도 오픈하여 운영중입니다.<br>
-                채널명은 '블루불페bluevulpe'입니다. 구독과 좋아요 부탁드려요:)</p>
-        </section>
-        <section>
-            <div> squqre1 </div>
-            <div> square2 </div>
-        </section>
-        <section>
-            <div><image src="../image/valencia.png"> map </image></div>
-        </section>
-        <footer> bluevulpe@gmail.com<br>https://github.com/gygy7151</footer>
+            <header class="header" style="letter-spacing: 4px;">
+                <ul> 
+                    <li class="list"><a href="main.html"></a>홈</li>
+                    <li class="list"><a href="sub1.html"></a>자기소개</li>
+                    <li class="list"><a href="sub2.html"></a>내사진</li>
+                    <li class="list"><a href="../webapps/WEB-INF/src/sub3.java"></a>몇시에요</li>
+                </ul>
+            </header>
+            <div class="section">
+                <section class="intro">
+                    <h2>안녕하세요 개발자 bluevulpe입니다.</h2>
+                    <p>현재 비전공자 주니어 개발자로 근무한지 만 11개월차이며<br>
+                        제가 하는일에 어떤 가치를 부여하는게 의미가 있을지 고민하는 사람입니다.<br>
+                        현재 서비스 기획 및 클라우드 콘텐츠 제작, 프론트개발자로 일하고 있습니다.<br>
+                        선한에너지로 세상에 선한 영향력을 주는 사람 협업하기 좋은 개발자가 되고자 힘쓰고 있습니다.<br>
+                        사진과 영상찍기 및 서핑을 취미로 합니다. 최근엔 개인 브이로그 유튜브 채널도 오픈하여 운영중입니다.<br>
+                        채널명은 '블루불페bluevulpe'입니다. 구독과 좋아요 부탁드려요:)</p>
+                </section>
+                <section  class="box0">
+                    <div class="square"> squqre1 </div>
+                    <div class="square"> square2 </div>
+                </section>
+                <section class="map">
+                    <div id="map"><image src="../webapps/images/valencia.png"> map </image></div>
+                </section>
+            </div>
+            <footer class="footer"> bluevulpe@gmail.com<br>https://github.com/gygy7151</footer>
     </body>
 </html>
+
+<!--'/Users/mac/Documents/GitHub/BE_PJT_A-1/images/valencia.png').-->
