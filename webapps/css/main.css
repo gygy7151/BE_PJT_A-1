@@ -27,6 +27,7 @@
     text-decoration: none;
     overflow: hidden;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 .box1 {
@@ -45,10 +46,11 @@
     margin: 2px; 
     text-align: center;
     height: 40px;
-    padding-top: 25px;
+    padding-top: 40px;
     padding-bottom: 20px;
     padding-right: 15px;
     padding-left: 15px;
+    box-shadow: 0 0 5px 1px rgb(172, 168, 168);
 }
 #section > .box0 > .box2 {
     float: inline-start;
